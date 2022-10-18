@@ -1,5 +1,5 @@
 [project]
-name = "countered"
+name = "counter"
 authors = []
 description = ""
 telemetry = true
@@ -8,8 +8,8 @@ boot_contracts = ["pox", "costs-v2", "bns"]
 
 [project.cache_location]
 path = "./.requirements"
-[contracts.countered]
-path = "contracts/countered.clar"
+[contracts.counter]
+path = "contracts/counter.clar"
 
 [repl]
 costs_version = 2
